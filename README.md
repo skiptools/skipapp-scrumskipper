@@ -1,7 +1,8 @@
 # Scrumskipper
 
-This is a [Skip](https://skip.tools) dual-platform app project.
-It builds a native app for both iOS and Android.
+Scrumskipper is a [Skip](https://skip.tools) dual-platform app project using the source from [Scrumdinger](https://developer.apple.com/tutorials/app-dev-training/getting-started-with-scrumdinger), Apple's canonical SwiftUI sample app. Scrumskipper builds a native app for both iOS and Android.
+
+Read more about this sample on the [Skip blog](https://skip.tools/blog/scrumskipper/).
 
 ## Building
 
