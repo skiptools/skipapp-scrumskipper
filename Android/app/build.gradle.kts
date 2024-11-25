@@ -20,6 +20,12 @@ android {
     kotlinOptions {
         jvmTarget = libs.versions.jvm.get().toString()
     }
+    packaging {
+        jniLibs {
+            keepDebugSymbols.add("**/*.so")
+            pickFirsts.add("**/*.so")
+        }
+    }
 
     defaultConfig {
         minSdk = libs.versions.android.sdk.min.get().toInt()
@@ -32,6 +38,10 @@ android {
 
     buildFeatures {
         buildConfig = true
+    }
+
+    lintOptions {
+        disable.add("Instantiatable")
     }
 
     // default signing configuration tries to load from keystore.properties
