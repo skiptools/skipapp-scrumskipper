@@ -14,7 +14,7 @@ let package = Package(
         .library(name: "ScrumskipperApp", type: .dynamic, targets: ["Scrumskipper"]),
     ],
     dependencies: [
-        .package(url: "https://source.skip.tools/skip.git", from: "1.0.0"),
+        .package(url: "https://source.skip.tools/skip.git", from: "1.4.0"),
         .package(url: "https://source.skip.tools/skip-ui.git", from: "1.0.0")
     ],
     targets: [
