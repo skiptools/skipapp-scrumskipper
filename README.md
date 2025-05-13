@@ -1,6 +1,6 @@
 # Scrumskipper
 
-Scrumskipper is a [Skip](https://skip.tools) dual-platform app project using the source from [Scrumdinger](https://developer.apple.com/tutorials/app-dev-training/getting-started-with-scrumdinger), Apple's canonical SwiftUI sample app. Scrumskipper builds a native app for both iOS and Android.
+Scrumskipper is a [Skip Lite](https://skip.tools) dual-platform app project using the source from [Scrumdinger](https://developer.apple.com/tutorials/app-dev-training/getting-started-with-scrumdinger), Apple's canonical SwiftUI sample app. Scrumskipper builds a native app for both iOS and Android.
 
 Read more about this sample on the [Skip blog](https://skip.tools/blog/scrumskipper/).
 
@@ -10,7 +10,7 @@ This project is both a stand-alone Swift Package Manager module,
 as well as an Xcode project that builds and transpiles the project
 into a Kotlin Gradle project for Android using the Skip plugin.
 
-Building the module requires that Skip be installed using
+Building the module requires that Skip Lite be installed using
 [Homebrew](https://brew.sh) with `brew install skiptools/skip/skip`.
 
 This will also install the necessary transpiler prerequisites:
