@@ -1,8 +1,8 @@
 # Scrumskipper
 
-Scrumskipper is a [Skip Lite](https://skip.tools) dual-platform app project using the source from [Scrumdinger](https://developer.apple.com/tutorials/app-dev-training/getting-started-with-scrumdinger), Apple's canonical SwiftUI sample app. Scrumskipper builds a native app for both iOS and Android.
+Scrumskipper is a [Skip Lite](https://skip.dev) dual-platform app project using the source from [Scrumdinger](https://developer.apple.com/tutorials/app-dev-training/getting-started-with-scrumdinger), Apple's canonical SwiftUI sample app. Scrumskipper builds a native app for both iOS and Android.
 
-Read more about this sample on the [Skip blog](https://skip.tools/blog/scrumskipper/).
+Read more about this sample on the [Skip blog](https://skip.dev/blog/scrumskipper/).
 
 ## Building
 
@@ -36,7 +36,7 @@ The general flow for contributing to this and any other Skip package is:
 
 1. Fork this repository and enable actions from the "Actions" tab
 2. Check out your fork locally
-3. When developing alongside a Skip app, add the package to a [shared workspace](https://skip.tools/docs/contributing) to see your changes incorporated in the app
+3. When developing alongside a Skip app, add the package to a [shared workspace](https://skip.dev/docs/contributing) to see your changes incorporated in the app
 4. Push your changes to your fork and ensure the CI checks all pass in the Actions tab
 5. Add your name to the Skip [Contributor Agreement](https://github.com/skiptools/clabot-config)
 6. Open a Pull Request from your fork with a description of your changes
